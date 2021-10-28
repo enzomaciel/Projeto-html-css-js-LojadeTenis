@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boots | Os melhores Tênis</title>
+        <link rel="shortcut icon" href="../imagens/favicon.png">
+        <link rel="stylesheet" href="../css/registrar.css">
+    </head>
+    <body>
+        <header>
+            <div class="headerint">
+                <div class="logo">
+                    <a href="../index.html"><img class="logotipo" src="../imagens/Boots.png" alt="Logo"></a>
+                </div>
+                <div class="menu">
+                    <ul class="menuint">
+                        <li class="menutop"> <a href="curriculo.html"> Currículo</a></li>
+                        <li class="menutop"> <a href="questionario.html">Questionário</a></li>
+                        <li class="menutop"> <a href="contato.html"> Contato</a></li>
+                        <li class="menutop"> <a href="registrar.html"> Registrar-se</a></li>
+                        <li class="menutop"> <a href="empresa.html"> Empresa</a></li>
+                        <li class="menutop"> <a href="blog.html"> Blog</a></li>
+                        <li class="menutop"> <a  href="fotos.html"> Fotos</a></li>
+                        <li class="menutop"> <a  href="loja.html"> Loja</a></li>
+                    </ul>
+                </div>
+            </div>        
+        </header>
+        <main>
+            <div class="mainint">
+                <div class="mainesquerda">
+                    <div class="mtitulo">Registra-se</div>
+                    <P> <a>Agilidade na sua compra com o seu registro</a> <br>
+                           além de acompanhar as novidades
+                    </P>
+                    <p>A loja de tênis mais completa do Brasil <br>
+                    </p>
+                </div>
+                <div class="maindireita">
+                    <input type="text"     placeholder="Nome" onblur="tratarNome('nome')" id="nome"> <br>
+                    <input type="email"    placeholder="Email" onblur="tratarEmail('email')" id="email"><label for="Email" id="erroEmail"></label> <br>
+                    
+                    <input type="password" onkeyup="verificarSenha()" placeholder="senha" id="senha"> <br> <br>
+                    <label for="" id="num">Colocar pelo menos 1 número.</label> <br>
+                    <label for="" id="letra">Colocar pelo menos uma Letra</label> <br>
+                    <label for="" id="symb">Colocar um simbolo.</label> <br>
+                    <label for="" id="quant">Ter no minimo 6 caracteres.</label> <br>
+                    <input type="password" placeholder="Repetir Senha" onkeyup="confimarSenha()" name="rsenha" id="rsenha"> <br> <br>
+                    <label for="" id="conf"></label> <br>
+                    
+                    
+                    
+                    <div id="tituloidade"> Data de Nascimento: </div>
+                    <input type="date"     name="Idade" id="idade"> <br>
+                    <div class="sexotitulo">Sexo</div>
+                    <input type="radio"    name="sexo" id="sexo"> Masculino <br>
+                    <input type="radio"    name="sexo" id="sexo"> Feminino <br>
+
+                    <input type="tel"      name="celular" id="celular" onblur="verificarNumero('celular')" placeholder="Celular"> <br>
+                    <input type="text"     name="end" id="end" onblur="endereco('end')" placeholder="Endereço"> <br>
+                    <input type="text"     name="end2" id="end2" onblur="endereco('end2')" placeholder="Endereço 2"> <br>
+                     <input type="submit" onclick=" registrar()"  value="Cadastrar" id="enviar"> <br> <br> <br> <br>
+                     <label for="" id="ienviar"  > </label>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footerint">
+                <div class="footeresquerda">
+                    <div class="ftitulo">Atendimento Personalizado</div>
+                    <div class="fsub">(21) 97014-4016</div>
+                </div>
+                <div class="footerdireita">
+                    <ul>
+                        <li><a href="empresa.html">Empresa</a></li>
+                        <li><a href="envio.html">Envio</a></li>
+                        <li><a href="como-comprar.html">Como Comprar</a></li>
+                        <li><a href="garantia.html">Garantia</a></li>
+                        <li><a href="loja.html">Loja</a></li>
+
+                        <div class="textofooter">Criado por Enzo</div>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        <script type="text/javascript" src="../JS/registrar.js"></script>
+    </body>
+</html>

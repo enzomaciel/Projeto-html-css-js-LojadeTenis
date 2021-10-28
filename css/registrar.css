@@ -1,0 +1,287 @@
+body{
+    margin: 0%;
+    background-color: #010326;
+}
+header{
+    height: 70px;
+    background-color: #010326;
+}
+.headerint{
+    width: 1000px;
+    margin: auto;
+    background-color: #010326;
+
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+.logotipo{
+    height: 70px;
+}
+.menu{
+    width: 70%;
+    height: 60px;
+    float: right;
+    
+}
+.menu ul,
+.menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.menuint li{
+    float: right;
+    line-height: 65px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin: 0;
+    cursor: pointer;
+}
+.menuint li:hover{
+    
+    font-size: 21px;
+    border-bottom: 3px solid #f2f2f2;
+    transition: 0.5s;
+}
+.menuint li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.mainint{
+    width: 1000px;
+    margin: auto;
+}
+.mainesquerda{
+    float: left;
+    margin-top: 50px;
+}
+.mtitulo{
+    color: #f2f2f2;
+    font-family: montserrat;
+    font-size: 35px;
+}
+.mainesquerda p{
+    color: #f2f2f2;
+    font-family: montserrat;
+}
+.maindireita{
+    float: right;
+    color: #f2f2f2;
+    font-family: montserrat;
+}
+#nome{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px;
+    background-color:#010326 ;
+    margin-top: 20px;
+}
+#nome:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#email{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px; 
+    background-color:#010326 ;
+    margin-top: 20px;
+}
+#email:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#senha{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px;
+    background-color:#010326; 
+    margin-top: 20px;
+}
+#senha:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#rsenha{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px;
+    background-color:#010326 ; 
+    margin-top: 20px;
+}
+#rsenha:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#tituloidade{
+    color: #f2f2f2;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: montserrat;
+}
+#idade{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #010326;
+    color: #f2f2f2;
+    
+}
+#idade:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+.sexotitulo{
+    margin-top: 20px;
+    color: #f2f2f2;
+    font-family: montserrat;
+}
+#sexo{
+    margin-top: 10px;
+}
+label {
+    margin-top: 10px;
+    font-family: montserrat;
+}
+#celular{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px;
+    background-color:#010326; 
+    margin-top: 20px;
+}
+#end{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px;
+    background-color:#010326; 
+    margin-top: 20px;
+}
+#end2{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    border-radius: 10px;
+    background-color:#010326; 
+    margin-top: 20px;
+}
+#end:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#end2:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#celular:hover{
+    transition: 0.5s;
+    background-color:#425B8C;
+}
+#enviar{
+    width: 200px;
+    height: 40px;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #425B8C;
+    font-size: 20px;
+
+}
+#enviar:hover{
+    transition: 0.5s;
+    background-color: #010326;
+    color: #f2f2f2;
+    border-color: #f2f2f2;
+    height: 45px;
+    width: 210px;
+    cursor: pointer;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    background: #020f59;
+    background: linear-gradient(89deg,#020f59 0%, #425b8c 80%);
+}
+.footerint{
+    width: 1000px;
+    margin: auto;
+    margin-top: 1000px;
+    height: 200px;
+    
+}
+.footeresquerda{
+    float: left;
+}
+.ftitulo{
+    padding-top: 20px;
+    color: #f2f2f2;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: montserrat;
+    font-size: 12px;
+}
+.fsub{
+    margin-left: 20px;
+    font-family: montserrat;
+    color: #f2f2f2;
+    font-size: 12px;
+}
+.footerdireita{
+    float: right;
+}
+.footerdireita li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 500px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.footerdireita a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding-top: 20px;
+    font-family: montserrat;
+}
+.textofooter{
+    color: #f2f2f2;
+    float: right;
+    margin-top: -40px;
+    margin-right: 30px;
+}
+input::placeholder{
+    color: #f2f2f2;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boots | Os melhores Tênis</title>
+        <link rel="shortcut icon" href="../imagens/favicon.png">
+        <link rel="stylesheet" href="../css/questionario.css">
+    </head>
+    <body>
+        <header>
+            <div class="headerint">
+                <div class="logo">
+                    <a href="../index.html"><img class="logotipo" src="../imagens/Boots.png" alt="Logo"></a>
+                </div>
+                <div class="menu">
+                    <ul class="menuint">
+                        <li class="menutop"> <a href="curriculo.html"> Currículo</a></li>
+                        <li class="menutop"> <a href="questionario.html">Questionário</a></li>
+                        <li class="menutop"> <a href="contato.html"> Contato</a></li>
+                        <li class="menutop"> <a href="registrar.html"> Registrar-se</a></li>
+                        <li class="menutop"> <a href="empresa.html"> Empresa</a></li>
+                        <li class="menutop"> <a href="blog.html"> Blog</a></li>
+                        <li class="menutop"> <a  href="fotos.html"> Fotos</a></li>
+                        <li class="menutop"> <a  href="loja.html"> Loja</a></li>
+                        
+                    </ul>
+                </div>
+            </div>        
+        </header>
+        <div class="formuExt">
+            <div class="FormuInt">
+                <form>
+                    <h1>Testa para saber se você conhece sobre tênis:</h1>
+                    <h2>Você está preparado para esse desafio?</h2> <br> <br>
+
+                    <h3>1 - Qual o nome do primeiro lançamento da Jordan?</h3>
+                    <input type="radio" name="questao1" value="20" onclick="questaoUm('iA1')" id="iA1"> <label for="questao1" id="erroiA1"  for="questao1"> Nike Air Jordan 1</label> <br>
+                    <input type="radio" name="questao1" value="0"  onclick="questaoUm('iB1')" id="iB1"> <label for="questao1" id="erroiB1"> Nike Air Jordan </label> <br>
+                    <input type="radio" name="questao1" value="0"  onclick="questaoUm('iC1')" id="iC1"> <label for="questao1" id="erroiC1"> Nike Jordan 1</label> <br>
+                    <input type="radio" name="questao1" value="0"  onclick="questaoUm('iD1')" id="iD1"> <label for="questao1" id="erroiD1"> Nenhuma das Anteriores</label> <br>
+
+                    <h3>2 - Qual o tenis mais caro do mundo?</h3>
+                    <input type="radio" name="questao2" value="0"  onclick="questaoDois('iA2')" id="iA2"> <label for="questao2" id="erroiA2"> Nike Air Yeezy 1</label> <br>
+                    <input type="radio" name="questao2" value="20" onclick="questaoDois('iB2')" id="iB2"> <label for="questao2" id="erroiB2"> Nike Moon Shoe</label> <br>
+                    <input type="radio" name="questao2" value="0"  onclick="questaoDois('iC2')" id="iC2"> <label for="questao2" id="erroiC2"> Buscemi 100 MM Diamond</label> <br>
+                    <input type="radio" name="questao2" value="0"  onclick="questaoDois('iD2')" id="iD2"> <label for="questao2" id="erroiD2"> Air Jordan 12</label> <br>
+
+                    <h3>3 - Qual o nome do criador do tênis?</h3>
+                    <input type="radio" name="questao3" value="0"  onclick="questaoTres('iA3')" id="iA3">  <label for="questao3" id="erroiA3"> Walter Wingfield</label> <br>
+                    <input type="radio" name="questao3" value="20" onclick="questaoTres('iB3')" id="iB3">  <label for="questao3" id="erroiB3"> Adolph Dassler</label> <br>
+                    <input type="radio" name="questao3" value="0"  onclick="questaoTres('iC3')" id="iC3">  <label for="questao3" id="erroiC3"> Diadora Mizuno</label> <br>
+                    <input type="radio" name="questao3" value="0"  onclick="questaoTres('iD3')" id="iD3">  <label for="questao3" id="erroiD3"> Mylius Goodyear</label> <br>
+
+                    <h3>4 - Qual o tênis mais vendido do mundo?</h3>
+                    <input type="radio" name="questao4" value="20" onclick="questaoQuatro('iA4')" id="iA4"> <label for="questao4" id="erroiA4">Nike Air Max 270</label> <br>
+                    <input type="radio" name="questao4" value="0"  onclick="questaoQuatro('iB4')" id="iB4"> <label for="questao4" id="erroiB4">Nike Air Force 1 low</label> <br>
+                    <input type="radio" name="questao4" value="0"  onclick="questaoQuatro('iC4')" id="iC4"> <label for="questao4" id="erroiC4">Nike Tanjun</label> <br>
+                    <input type="radio" name="questao4" value="0"  onclick="questaoQuatro('iD4')" id="iD4"> <label for="questao4" id="erroiD4">Adidas YEEZY Boost 350 V2</label> <br>
+
+                    <h3>5 - Qual o tênis mais confortável do mundo?</h3>
+                    <input type="radio" name="questao5" value="20" onclick="questaoCinco('iA5')" id="iA5"> <label for="questao5" id="erroiA5"> Mizuno Wave Sky 3.</label> <br>
+                    <input type="radio" name="questao5" value="0"  onclick="questaoCinco('iB5')" id="iB5"> <label for="questao5" id="erroiB5"> Asics Kayano 26.</label> <br>
+                    <input type="radio" name="questao5" value="0"  onclick="questaoCinco('iC5')" id="iC5"> <label for="questao5" id="erroiC5"> Nike Legend React 2.</label> <br>
+                    <input type="radio" name="questao5" value="0"  onclick="questaoCinco('iD5')" id="iD5"> <label for="questao5" id="erroiD5"> Asics Gel Raiden 2.</label> <br>
+                    <br>
+                    <br> 
+                    <br>
+                </form>
+            </div>
+
+        </div>
+        <footer>
+            <div class="footerint">
+                <div class="footeresquerda">
+                    <div class="ftitulo">Atendimento Personalizado</div>
+                    <div class="fsub">(21) 97014-4016</div>
+                </div>
+                <div class="footerdireita">
+                    <ul>
+                        <li><a href="empresa.html">Empresa</a></li>
+                        <li><a href="envio.html">Envio</a></li>
+                        <li><a href="como-comprar.html">Como Comprar</a></li>
+                        <li><a href="garantia.html">Garantia</a></li>
+                        <li><a href="loja.html">Loja</a></li>
+
+                        <div class="textofooter">Criado por Enzo</div>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="../JS/questionario.js"></script>
+    </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boots | Os melhores Tênis</title>
+        <link rel="shortcut icon" href="../imagens/favicon.png">
+        <link rel="stylesheet" href="../css/curriculo.css">
+    </head>
+    <body>
+        <header>
+            <div class="headerint">
+                <div class="logo">
+                    <a href="../index.html"><img class="logotipo" src="../imagens/Boots.png" alt="Logo"></a>
+                </div>
+                <div class="menu">
+                    <ul class="menuint">
+                        <li class="menutop"> <a href="curriculo.html"> Currículo</a></li>
+                        <li class="menutop"> <a href="questionario.html">Questionário</a></li>
+                        <li class="menutop"> <a href="contato.html"> Contato</a></li>
+                        <li class="menutop"> <a href="registrar.html"> Registrar-se</a></li>
+                        <li class="menutop"> <a href="empresa.html"> Empresa</a></li>
+                        <li class="menutop"> <a href="blog.html"> Blog</a></li>
+                        <li class="menutop"> <a  href="fotos.html"> Fotos</a></li>
+                        <li class="menutop"> <a  href="loja.html"> Loja</a></li>
+                        
+                    </ul>
+                </div>
+            </div>        
+        </header>
+        <main>
+            <div class="mainint">
+                <div class="mainesquerda">
+                    <div class="mtitulo">Currículo</div>
+                    <P> <a>Venha fazer parte da nossa equipe</a> <br>
+                           e aproveitar os melhores momentos conosco
+                    </P>
+                    <p>A loja de tênis mais completa do Brasil <br>
+                    </p>
+                </div>
+                <div class="maindireita">
+                    <input type="text" class="formulario" onblur="tratarNome('iNome')" placeholder="Nome" id="iNome"> <br>
+
+                    <input type="text" class="formulario" onblur="tratarNome('iNomePai')"  placeholder="Nome do Pai" id="iNomePai"> <br>
+
+                    <input type="text" class="formulario" onblur="tratarNome('iNomeMae')" placeholder="Nome da Mãe" id="iNomeMae"> <br>
+
+                    <input type="email" class="formulario" onblur="tratarEmail('iEmail')"  placeholder="Email" id="iEmail"> <label for="email" id="erroiEmail"></label><br>
+
+                    <input type="text" class="formulario" onkeyup="verificarCpf()" onblur="verificarCpf2()" placeholder="CPF" id="iCpf"> <label for="cpf" id="erroiCpf2"></label> <br>
+
+                    <input type="text" class="formulario" placeholder="RG" onkeyup="verificarRg()"  onblur="verificarRg2()"  id="iRg"> <label for="rg" id="erroiRg2"></label> <br>
+
+                    <input type="tel" class="formulario" placeholder="Telefone" onkeyup="verificarNumero('iTelefone')" onblur="verificarNumero2('iTelefone')" id="iTelefone"><label for="telefone" id="erroiTelefone"></label> <br>
+
+                    <input type="tel" class="formulario" name="celular" onkeyup="verificarNumero('iCelular')"  onblur="verificarNumero2('iCelular')" id="iCelular"  placeholder="Celular"><label for="rg" id="erroiCelular"></label> <br>
+
+                    <div id="tituloidade"> Data de Nascimento: </div>
+                    <input type="date" name="Idade" id="idade"> <br>
+
+                    <div class="sexotitulo">Sexo:</div>
+                    <input type="radio" name="sexo" id="sexo"> Masculino <br>
+                    <input type="radio" name="sexo" id="sexo"> Feminino <br>
+                    <input type="radio" name="sexo" id="sexo"> outros <br>
+
+                    <input type="text" class="formulario" id="end" onblur="endereco('end')" placeholder="Endereço"> <br>
+
+                    <input type="text" class="formulario" id="end2" onblur="endereco('end2')"  placeholder="Numero"> <br>
+
+                    <input type="text" class="formulario" id="end3" onblur="endereco('end3')" placeholder="Complemento"> <br>
+
+                    <div class="sexotitulo">Nivel de Escolaridade:</div>
+                    <select class="formulario">
+                        <option value="">Primeiro Grau Incompleto</option>
+                        <option value="">Primeiro Grau Completo</option>
+                        <option value="">Segundo Grau Incompleto</option>
+                        <option value="">Segundo Grau completo</option>
+                        <option value="">Terceiro Grau Incompleto</option>
+                        <option value="">Terceiro Grau completo</option>
+
+                    </select>
+
+                    <div class="sexotitulo">Habilidades:</div>
+                    <input type="checkbox"  name="UF" onclick="" class="checkbox" id="1grauIn"> <label for="UF"> HTML</label> <br>
+                    <input type="checkbox" name="UF" onclick="" class="checkbox" id="1grauCp"> <label for="UF"> CSS</label> <br>
+                    <input type="checkbox" name="UF" onclick="" class="checkbox" id="2grauIn"> <label for="UF"> Photoshop</label> <br>
+                    <input type="checkbox" name="UF" onclick="" class="checkbox" id="2grauCp"> <label for="UF"> Premiere</label> <br>
+                    <input type="checkbox" name="UF" onclick="" class="checkbox" id="3grauIn"> <label for="UF"> Sony Vegas</label> <br>
+                    <input type="checkbox" name="UF" onclick="" class="checkbox" id="3grauCp"> <label for="UF"> JavaScript</label> <br>
+                    <div class="sexotitulo">Texto para Qualificações</div>
+                    <textarea  id="iTexto" cols="30" rows="10"></textarea> <br>
+
+                     <input type="submit" onclick="registrar()" value="Enviar" id="enviar"> <br> <br> <br>
+                     <label for="" id="ienviar"></label>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footerint">
+                <div class="footeresquerda">
+                    <div class="ftitulo">Atendimento Personalizado</div>
+                    <div class="fsub">(21) 97014-4016</div>
+                </div>
+                <div class="footerdireita">
+                    <ul>
+                        <li><a href="empresa.html">Empresa</a></li>
+                        <li><a href="envio.html">Envio</a></li>
+                        <li><a href="como-comprar.html">Como Comprar</a></li>
+                        <li><a href="garantia.html">Garantia</a></li>
+                        <li><a href="loja.html">Loja</a></li>
+
+                        <div class="textofooter">Criado por Enzo</div>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        <script type="text/javascript" src="../JS/curriculo.js"></script>
+    </body>
+</html>
